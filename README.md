@@ -1,5 +1,16 @@
 # UCI-HAR-Dataset
 Getting and Cleaning Data - Course Project
+==================================================================
+Below outlines the steps in which the R code is executed:
+==================================================================
+Step 1 - reading data from the UCI HAR Dataset
+Step 2 - Combining the above into a dataframe having labels, subjects, and data
+Step 3 - read the features.txt file and retain only the mean and standard deviation elements
+Step 4 - read the activity labels text file and replace labels in data with label names
+Step 5 - tidy the column names by removing non-alphabetic character and converting to lowercase
+Step 6 - compute the mean for each combination of subject and label
+Step 7 - writing the output to a text file
+
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
